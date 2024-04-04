@@ -7,3 +7,21 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Author     : Alejandro
 */
 
+.card {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .card-img-container {
+      flex: 0 0 30%; /* Ancho del contenedor de la imagen */
+    }
+    .card-img {
+      width: 100%; /* Para que la imagen ocupe todo el espacio del contenedor */
+    }
+    .card-details {
+      flex: 0 0 70%; /* Ancho del contenedor de los detalles */
+      padding: 1rem;
+    }
+    
+    .botonSalir{
+        text-align: right;
+    }
